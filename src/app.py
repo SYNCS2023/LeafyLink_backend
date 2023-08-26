@@ -113,5 +113,5 @@ def hello():
     return 'Hello, World!'
 
 if __name__ == '__main__':
-    print(predict("TomatoYellowCurlVirus1.JPG"))
-    app.run(debug=True)
+    # print(predict("TomatoYellowCurlVirus1.JPG"))
+    app.run(host="0.0.0.0", port=5000, debug=True)
