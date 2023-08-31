@@ -1,7 +1,7 @@
 version: "3.3"
 
 services:
-        github-vis:
+        leafylink_backend:
                 image: "${COMPOSE_PROJECT_NAME}"
                 restart: "${RESTART_POLICY}"
                 user: "${_UID}:${_GID}"
